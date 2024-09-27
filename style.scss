@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Kanit", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+}
+
+header{
+        background-color: lightsalmon;
+        width: 100vw;
+        height: 20vh;  
+        padding: 30px;     
+        display: flex;
+        justify-content:space-between;
+        align-items: center;
+        
+        img{
+            width: 100px;
+        }
+        h1{
+            font-size: 2em;
+            color: aliceblue;
+        }
+
+        nav{
+          
+            font-size: 1.4em;
+            color: aliceblue; 
+            width: 30vw;        
+            height: 10vw;   
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        ul{           
+            width: 30vw;
+            height: 10vh;            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+    }    
+
+    main{
+        width: 100vw;
+        height: 50vh;
+        display: flex; 
+       }
+   
+
+    article{          
+        width: 50vw;
+        height:50vh;     
+        background-color: rgb(195, 116, 47);
+        display: flex;
+        justify-content: center;            
+        align-items: center;
+        flex-direction: column; 
+
+            figure{
+                text-align: center;
+                font-size: 1.5em;
+                font-weight: 500;
+                color: aliceblue;
+                margin: 5px;
+            }
+
+            img{
+                width: 200px;
+            }
+
+            button{           
+                width: 100px;
+                height: 30px;
+                text-align: center;
+                border: none;
+                border-radius: 10px;
+                background-color: sienna;
+                color: aliceblue;
+            }
+    }
+
+    h2{
+        font-size: 1.4em;
+        text-align: center;        
+    }
+
+    section{
+        width: 100vw;
+        height: 40vh;
+        padding: 30px;      
+        background-color:lightsalmon;   
+        color: aliceblue; 
+
+        p{        
+            text-align: left;
+            width: 90vw;
+            margin: 20px 0px;
+        }
+    }
+
+    
+
+    footer{
+        width: 100vw;
+        height: 30vh;
+        background-color:rgb(195, 116, 47);     
+        color:aliceblue; 
+        padding: 40px;
+
+        .logo{
+            width: 50px;
+        }
+
+    }
+
+
+
